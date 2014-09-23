@@ -92,7 +92,7 @@ fis.config.merge({
         lint: {
             js: 'jshint'
         },
-        postpackager: 'seajs2'
+        postpackager: 'seajs-qycloud'
     },
     settings: {
         parser: {
@@ -104,7 +104,7 @@ fis.config.merge({
         lint: {
             jshint: {
                 //排除对lib和jquery、backbone、underscore的检查
-                ignored: [ 'lib/**', /jquery|backbone|underscore/i ],
+                ignored: [ 'lib/**', /jquery|backbone|underscore|\$|bootstrap/i ],
                 //使用中文报错
                 i18n: 'zh-CN'
             }
@@ -116,7 +116,7 @@ fis.config.merge({
             }
         },
         optimizer: {
-            'uglify-js': {
+            'uglify-js-qycloud': {
                 mangle: {
                     //不要压缩require关键字，否则seajs会识别不了require
                     except: [ 'require' ]
