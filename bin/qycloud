@@ -1,3 +1,0 @@
-#!/usr/bin/env node
-
-require('../qycloud.js').cli.run(process.argv);

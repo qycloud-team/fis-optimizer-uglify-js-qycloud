@@ -1,42 +1,36 @@
 {
-    "name": "qycloud",
-    "version": "0.0.3",
-    "description": "a wrapper of fis to build seajs project",
-    "main": "qycloud.js",
-    "bin": {
-        "qycloud": "bin/qycloud"
+    "name": "fis-optimizer-uglify-js-qycloud",
+    "description": "A optimizer for fis to compress js by using uglify-js-qycloud.",
+    "version": "0.0.1",
+    "author": {
+        "name": "QYCLOUD Team",
+        "email": "googleyufei@qq.com"
     },
-    "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1"
-    },
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/qycloud-team/qycloud.git"
-    },
+    "homepage": "http://www.oatos.com/",
     "keywords": [
         "fis",
-        "spm",
-        "seajs",
-        "requirejs",
-        "cmd",
-        "commonjs",
-        "modular",
-        "build",
-        "qycloud"
+        "uglifyjs"
     ],
-    "author": "googleyufei",
-    "license": "MIT",
-    "dependencies": {
-        "fis": "1.7.14",
-        "fis-parser-coffee-script": "0.0.2",
-        "fis-parser-less": "0.1.1",
-        "fis-parser-utc": "0.0.2",
-        "fis-parser-handlebars": "0.0.1",
-        "fis-postpackager-simple": "^0.0.23",
-        "fis-lint-jshint": "0.0.9",
-        "fis-postpackager-seajs-qycloud": "^0.0.2"
+    "main": "index.js",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/qycloud-team/fis-optimizer-uglify-js-qycloud.git"
     },
+    "engines": {
+        "node": ">= 0.8.0"
+    },
+    "scripts": {
+        "test": "mocha test/ut --recursive"
+    },
+    "dependencies": {
+        "uglify-js": "2.4.13"
+    },
+    "readme": "# fis-optimizer-uglify-js-qycloud\n\nA optimizer for fis to compress js by using uglify-js-qycloud.",
+    "readmeFilename": "README.md",
     "bugs": {
-        "url": "https://github.com/qycloud-team/qycloud/issues"
-    }
+        "url": "https://github.com/qycloud-team/fis-optimizer-uglify-js-qycloud/issues"
+    },
+    "_id": "fis-optimizer-uglify-js-qycloud@0.1.2",
+    "_shasum": "c661925bb0f6b2014d57ee2c6d23628837117788",
+    "_from": "fis-optimizer-uglify-js-qycloud@0.1.2"
 }
