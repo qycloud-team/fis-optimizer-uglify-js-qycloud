@@ -1,3 +1,3 @@
-# fis-optimizer-uglify-js-qcyloud
+# qcyloud-optimizer-uglify-js
 
 A optimizer for fis to compress js by using uglify-js.
